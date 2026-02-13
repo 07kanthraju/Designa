@@ -1,0 +1,22 @@
+module: Login
+
+classes:
+  - name: LoginController
+    methods:
+      - name: login
+        returnType: String
+        parameters:
+          - name: username
+            type: String
+          - name: password
+            type: String
+
+  - name: LoginService
+    methods:
+      - name: authenticate
+        returnType: Boolean
+        parameters:
+          - name: username
+            type: String
+          - name: password
+            type: String
