@@ -147,7 +147,7 @@ Please open an issue before major architectural changes.
 
 ## 📄 License
 
-MIT License (or your preferred open-source license)
+Apache 2.0
 
 ---
 
