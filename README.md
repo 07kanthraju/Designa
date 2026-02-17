@@ -68,14 +68,15 @@ Designa never allows unrestricted repository modification.
 ---
 
 ## 📁 Example Project Structure
-
+```
 project/
 ├── src/
 ├── .design/
-│ └── Login/
-│ └── Login.yaml
+│   └── Login/
+│       └── Login.yaml
 ├── package.json
 └── designa.config.ts
+```
 
 yaml
 Copy code
